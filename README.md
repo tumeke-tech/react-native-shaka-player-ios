@@ -236,3 +236,5 @@ Place your DASH manifest and segments inside the app's `Documents` directory (fo
 ```
 
 ## License
+
+MIT

@@ -1,6 +1,6 @@
 {
   "name": "react-native-shaka-player-ios",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shaka Player Embedded component for react-native (iOS only)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

@@ -95,7 +95,7 @@ export default class ShakaPlayer extends Component<ShakaPlayerProps> {
     this.rate = props.rate || 1;
     this.progressUpdateInterval = props.progressUpdateInterval
       ? props.progressUpdateInterval / 1000
-      : null;
+      : 0.1;
 
     this.viewRef = React.createRef();
   }
