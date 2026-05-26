@@ -38,7 +38,8 @@
   },
   "scripts": {
     "typescript": "tsc --noEmit",
-    "build": "bob build"
+    "build": "bob build",
+    "release": "bob build && release-it"
   },
   "peerDependencies": {
     "react": "*",
