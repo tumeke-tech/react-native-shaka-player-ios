@@ -9,9 +9,9 @@ The component's props, events, and imperative methods follow the [`react-native-
 ## Installation
 
 ```sh
-yarn add react-native-shaka-player-ios
+yarn add @tumeke/react-native-shaka-player-ios
 # or
-npm install react-native-shaka-player-ios
+npm install @tumeke/react-native-shaka-player-ios
 ```
 
 Then install the iOS pods:
@@ -25,7 +25,7 @@ The podspec vendors `ShakaPlayerEmbedded.xcframework` and `ShakaPlayerEmbedded.F
 ## Usage
 
 ```tsx
-import ShakaPlayer from "react-native-shaka-player-ios";
+import ShakaPlayer from "@tumeke/react-native-shaka-player-ios";
 
 <ShakaPlayer
   source={{
